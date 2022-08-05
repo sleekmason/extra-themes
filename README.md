@@ -1,15 +1,14 @@
 ﻿### Extra themes
- 
- 
+
 ### These are the extra themes that were once in Lilidog but have since been removed.
 
 There are currently five dark GTK and matching Openbox themes.
 
 Conanolis - The Anolis theme with contrasted highlights. <-- Personal favorite for work.
-Earth - A theme with zero color throughout.
-Drow - Similar to earth, but with a approx. hue 180 in text color for system match.
-Neon - Dark pink/blue loud theme.  Just fun to have.
-Cobalt - A Dark Blue Loud theme. Same.
+Lilidog-Earth - A theme with zero color throughout.
+Lilidog-Drow - Similar to earth, but with a approx. hue 180 in text color for system match.
+Lilidog-Neon - Dark pink/blue loud theme.  Just fun to have.
+Lilidog-Cobalt - A Dark Blue Loud theme. Same.
 
 ### Instructions:
 Download and unzip the 'extra-themes' folder. then, either make a folder for user use
@@ -26,3 +25,4 @@ in the build. No need to download again.
 ### Note for Lilidog users: 
 feel free to also edit /usr/local/bin/ld-themes and add any new theme names you like to the list.  
 Those themes will then appear in the auto themes dialog and exhibit the same functionality.
+Also, if you feel one of these shoud be included in the build, let me know!

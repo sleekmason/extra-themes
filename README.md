@@ -1,14 +1,6 @@
 ﻿### Extra themes
 
-### These are the extra themes that were once in Lilidog.
-
-There are currently five dark GTK and matching Openbox themes.
-
-Conanolis - Anolis theme with contrasted highlights. Favorite for work.
-Lilidog-Earth - A theme with zero color throughout.
-Lilidog-Drow - Like earth, but with a little text color for matching.
-Lilidog-Neon - Dark pink/blue loud theme.  Just fun to have.
-Lilidog-Cobalt - A Dark Blue Loud theme. Same.
+### These are the themes currently in Lilidog.
 
 ### Instructions:
 If using Lilidog, look in the installers under graphics to install 

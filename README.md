@@ -15,6 +15,7 @@ Either way, the themes will then appear in your system settings
 appearance dialog. 
 
 place the themes directly into /usr/share/themes for systemwide (root) use.
+The themes ending with "box" are the Openbox counterparts to the GTK themes.
 
 ### To Remove:
 Just remove the theme folders you one longer wish to use.  the 

@@ -14,6 +14,8 @@ for systemwide use.
 Either way, the themes will then appear in your system settings 
 appearance dialog. 
 
+place the themes directly into /usr/share/themes for systemwide (root) use.
+
 ### To Remove:
 Just remove the theme folders you one longer wish to use.  the 
 ~/.themes folder can be deleted as well.
@@ -30,5 +32,3 @@ feel free to also edit /usr/local/bin/ld-themes and add any new theme
 names you like to the list. Those themes will then appear in the auto 
 themes dialog and exhibit the same functionality. 
 
-If you feel that one of these themes shoud be included in the build, 
-let me know!

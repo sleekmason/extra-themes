@@ -1,4 +1,4 @@
-!! Island-redbox by sleekmason 12 July 2024
+!! Custom-islandbox by sleekmason 12 July 2024
 !! Based on Onyx-Citrus by Dana Jansens
 
 !! Menu background
@@ -21,8 +21,8 @@ menu.title.text.justify: center
 
 !! Selected menu item
 menu.items.active.bg: raised splitvertical gradient
-menu.items.active.bg.color: #A14345
-menu.items.active.bg.colorTo: #A14345
+menu.items.active.bg.color: #a14345
+menu.items.active.bg.colorTo: #a14345
 menu.items.active.text.color: #FAFDFF
 
 !! Titlebar
@@ -39,6 +39,8 @@ window.active.label.bg: parentrelative
 window.active.label.text.color: #E6E6E6
 window.inactive.label.bg: parentrelative
 window.inactive.label.text.color: #AAB0B3
+window.active.label.text.font: shadow=y:shadowtint=30:shadowoffset=1
+window.inactive.label.text.font: shadow=y:shadowtint=10:shadowoffset=1
 
 !! Window buttons
 window.*.button.*.bg: parentrelative
@@ -46,8 +48,8 @@ window.active.button.*.hover.bg: flat vertical gradient border
 window.inactive.button.*.hover.bg: parentrelative
 window.*.button.*.pressed.bg: flat vertical gradient border
 
-window.active.button.*.hover.bg.color: #A14345
-window.active.button.*.hover.bg.colorTo: #A14345
+window.active.button.*.hover.bg.color: #a14345
+window.active.button.*.hover.bg.colorTo: #a14345
 window.active.button.*.hover.image.color: #EBF6FA
 window.active.button.*.hover.bg.border.color: #202329
 

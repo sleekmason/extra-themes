@@ -488,7 +488,7 @@ modelbutton.flat,
   -gtk-icon-shadow: none; }
   modelbutton.flat:hover,
   .menuitem.button.flat:hover {
-    background-color: #101716; }
+    background-color: shade(#154c33, 0.90); }
 
 calendar {
   color: #C3D4D1;
@@ -736,7 +736,7 @@ popover.menu {
     border-radius: 5px; }
     popover.menu modelbutton:selected {
       color: #C3D4D1;
-      background-color: #101716; }
+      background-color: shade(#154c33, 0.90); }
 
 progressbar {
   font-size: smaller;
@@ -787,9 +787,9 @@ scrollbar {
     border: 4px solid transparent;
     border-radius: 8px;
     background-clip: padding-box;
-    background-color: #505758; }
+    background-color: #293033; }
     scrollbar slider:hover {
-      background-color: #84908E; }
+      background-color: #444F54; }
     scrollbar slider:hover:active {
       background-color: #154c33; }
     scrollbar slider:backdrop {

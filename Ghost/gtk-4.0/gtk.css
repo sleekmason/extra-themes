@@ -488,7 +488,7 @@ modelbutton.flat,
   -gtk-icon-shadow: none; }
   modelbutton.flat:hover,
   .menuitem.button.flat:hover {
-    background-color: #D6E1EB; }
+    background-color: shade(#5F99CE, 1.0); }
 
 calendar {
   color: #101010;
@@ -736,7 +736,7 @@ popover.menu {
     border-radius: 5px; }
     popover.menu modelbutton:selected {
       color: #101010;
-      background-color: #D6E1EB; }
+      background-color: shade(#5F99CE, 1.0); }
 
 progressbar {
   font-size: smaller;
@@ -863,15 +863,15 @@ tooltip {
   padding: 4px;
   border-radius: 5px;
   box-shadow: none;
-  text-shadow: 0 1px black; }
+  text-shadow: 0 1px #BCCACC; }
   tooltip.background {
-    background-color: #C4C9C9;
+    background-color: #EEF0F0;
     background-clip: padding-box;
     border: 1px solid rgba(255, 255, 255, 0.1); }
   tooltip * {
     padding: 4px;
     background-color: transparent;
-    color: white; }
+    color: #000000; }
 
 columnview.view,
 treeview.view {

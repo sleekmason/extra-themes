@@ -488,7 +488,7 @@ modelbutton.flat,
   -gtk-icon-shadow: none; }
   modelbutton.flat:hover,
   .menuitem.button.flat:hover {
-    background-color: #17272E; }
+    background-color: shade(#134954, 0.90); }
 
 calendar {
   color: #A3E5F0;
@@ -736,7 +736,7 @@ popover.menu {
     border-radius: 5px; }
     popover.menu modelbutton:selected {
       color: #A3E5F0;
-      background-color: #17272E; }
+      background-color: shade(#134954, 0.90); }
 
 progressbar {
   font-size: smaller;

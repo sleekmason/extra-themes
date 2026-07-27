@@ -38,7 +38,7 @@
 
 .gtkstyle-fallback {
   color: #C3D4D4;
-  background-color: #101314;
+  background-color: #131617;
   text-shadow: none; }
   .gtkstyle-fallback:hover {
     color: #C3D4D4;
@@ -226,7 +226,7 @@ entry {
   spinbutton:backdrop:not(.vertical),
   entry:backdrop {
     color: #B9C9C6;
-    border-color: #262B2E;
+    border-color: #262D30;
     background-color: #181D1F;
     box-shadow: none;
     transition: 200ms ease-out; }
@@ -1640,7 +1640,7 @@ toolbar, .inline-toolbar, searchbar,
   background-color: #101314; }
 
 toolbar {
-  background: #101314 linear-gradient(to bottom, #131617, shade(#131617, 0.88));
+  background: #101314 linear-gradient(to bottom, #131617, shade(#131617, 1.0));
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.8);
   box-shadow: none;
   border-bottom: 1px solid #282F33;
@@ -3662,9 +3662,9 @@ row {
   row.activatable:selected:active {
     box-shadow: inset 0 2px 3px -1px rgba(0, 0, 0, 0.5); }
   row.activatable:selected.has-open-popup, row.activatable:selected:hover {
-    background-color: #3986d6; }
+    background-color: #48535C; }
   row.activatable:selected:backdrop {
-    background-color: #3a454d; }
+    background-color: #364047; }
 
 /*********************
  * App Notifications *
@@ -3811,7 +3811,7 @@ filechooserbutton:drop(active) {
       .sidebar treeview:selected:backdrop,
       .sidebar treeview:selected:focus:backdrop {
         background-image: none;
-        background-color: #1E2426;
+        background-color: #1A1F21;
         color: #C3D4D4;
         border-top: 1px solid shade(#101314, 0.9);
         border-bottom: 1px solid shade(#101314, 0.9); }
@@ -3820,7 +3820,7 @@ filechooserbutton:drop(active) {
     .sidebar treeview iconview:selected,
     .sidebar treeview .view:selected:focus,
     .sidebar treeview iconview:selected:focus {
-      color: #E6F5F5; }
+      color: #CDD6D6; }
     .sidebar row:backdrop,
     .sidebar treeview:backdrop {
       background-color: transparent; }

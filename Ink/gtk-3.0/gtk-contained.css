@@ -20,10 +20,10 @@
  ***************/
 .background {
   color: #C3D4D4;
-  background-color: #101314; }
+  background-color: #131617; }
   .background:backdrop {
     color: #A6B3B2;
-    background-color: #101314;
+    background-color: #131617;
     text-shadow: none;
     -gtk-icon-shadow: none; }
 
@@ -173,9 +173,9 @@ entry {
   border: 1px solid;
   border-radius: 5px;
   transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  color: #C9D6D6;
+  color: #D3DDDE;
   border-color: #282F33;
-  background-color: #121617;
+  background-color: #1D2226;
   box-shadow: inset 0 0 0 1px rgba(57, 142, 231, 0); }
   spinbutton:not(.vertical) image.left,
   entry image.left {
@@ -431,13 +431,13 @@ button {
   border: 1px solid;
   border-radius: 7px;
   transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  color: #C3D4D4;
+  color: #CED6D6;
   outline-color: #252C2E;
   border-top-color: shade(#14181A, 0.86);
   border-right-color: shade(#14181A, 0.82);
   border-left-color: shade(#14181A, 0.82);
   border-bottom-color: shade(#14181A, 0.80);
-  background-image: linear-gradient(to bottom, shade(shade(#161A1C, 1.0), 1.03), shade(shade(#161A1C, 1.0), 1.03));
+  background-image: linear-gradient(to bottom, shade(shade(#1A1E21, 1.0), 1.03), shade(shade(#1A1E21, 1.0), 1.03));
   box-shadow: inset 0 1px #1C2124; }
   notebook > header > tabs > arrow, button.sidebar-button, button.titlebutton,
   button.flat {
@@ -457,7 +457,7 @@ button {
         transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
   notebook > header > tabs > arrow:hover, button.titlebutton:hover,
   button:hover {
-    color: #D8E6E6;
+    color: #E1EBEB;
     outline-color: rgba(60, 60, 60, 0.3);
     border-color: #101112;
     background-image: linear-gradient(to bottom, shade(#3a454d, 0.84), shade(#3a454d, 0.99));
@@ -1640,7 +1640,7 @@ toolbar, .inline-toolbar, searchbar,
   background-color: #101314; }
 
 toolbar {
-  background: #101314 linear-gradient(to bottom, #101314, shade(#101314, 0.88));
+  background: #101314 linear-gradient(to bottom, #131617, shade(#131617, 0.88));
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.8);
   box-shadow: none;
   border-bottom: 1px solid #282F33;
@@ -2467,7 +2467,7 @@ notebook > header {
     padding: 3px 12px;
     outline-offset: -5px;
     color: #A6B3B2;
-    background-color: #161A1C;
+    background-color: #1A1E21;
     border-width: 1px;
     border-radius: 3px;
     border-color: shade(#282F33, 0.9);
@@ -3787,7 +3787,7 @@ filechooserbutton:drop(active) {
  ***********/
 .sidebar {
   border-style: none;
-  background-color: #101314;
+  background-color: #131617;
   -gtk-icon-style: regular; }
   .sidebar row,
   .sidebar treeview {
@@ -3796,9 +3796,9 @@ filechooserbutton:drop(active) {
     .sidebar row:selected, .sidebar row:selected:focus,
     .sidebar treeview:selected,
     .sidebar treeview:selected:focus {
-      background-image: linear-gradient(to bottom, shade(#3a454d, 0.87), shade(#3a454d, 0.92) 10%, shade(#3a454d, 1.0) 92%, shade(#3a454d, 0.96));
-      border-top: 1px solid shade(#101314, 0.85);
-      border-bottom: 1px solid shade(#101314, 1.12); }
+      background-image: linear-gradient(to bottom, shade(#252B30, 0.87), shade(#252B30, 0.92) 10%, shade(#252B30, 1.0) 92%, shade(#252B30, 0.96));
+      border-top: 1px solid shade(#0E1112, 0.85);
+      border-bottom: 1px solid shade(#0E1112, 1.12); }
       .sidebar row:selected label, .sidebar row:selected:focus label,
       .sidebar treeview:selected label,
       .sidebar treeview:selected:focus label {
@@ -3835,7 +3835,7 @@ filechooserbutton:drop(active) {
     border-top-style: none;
     border-bottom-style: none; }
   .sidebar:backdrop {
-    background-color: #101314;
+    background-color: #131617;
     border-color: #475157;
     transition: 200ms ease-out; }
   .sidebar list, .sidebar treeview {
@@ -4357,7 +4357,7 @@ entry selection:focus,
 entry selection, modelbutton.flat:selected, popover.background checkbutton:selected,
 popover.background radiobutton:selected,
 .menuitem.button.flat:selected, treeview.view:selected:focus, treeview.view:selected, row:selected, calendar:selected {
-  background-color: #3a454d; }
+  background-color: #3F484F; }
   row:selected label, label:selected, .selection-mode button.titlebutton, .view:selected:focus, .view:selected, iconview:selected, .view text:selected, iconview text:selected,
   textview text:selected, .view text selection:focus, iconview text selection:focus, .view text selection, iconview text selection,
   textview text selection:focus,
@@ -4366,7 +4366,7 @@ popover.background radiobutton:selected,
   entry selection, modelbutton.flat:selected, popover.background checkbutton:selected,
   popover.background radiobutton:selected,
   .menuitem.button.flat:selected, treeview.view:selected:focus, treeview.view:selected, row:selected, calendar:selected {
-    color: #D1E0DF;
+    color: #F0FAFA;
     outline-color: rgba(255, 255, 255, 0.3); }
     row:selected label:disabled, label:disabled:selected, .selection-mode button.titlebutton:disabled, iconview:disabled:selected:focus, .view:disabled:selected, iconview:disabled:selected, iconview text:disabled:selected:focus,
     textview text:disabled:selected:focus, .view text:disabled:selected, iconview text:disabled:selected,

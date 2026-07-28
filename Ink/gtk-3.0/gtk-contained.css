@@ -3796,7 +3796,7 @@ filechooserbutton:drop(active) {
     .sidebar row:selected, .sidebar row:selected:focus,
     .sidebar treeview:selected,
     .sidebar treeview:selected:focus {
-      background-image: linear-gradient(to bottom, shade(#252B30, 0.87), shade(#252B30, 0.92) 10%, shade(#252B30, 1.0) 92%, shade(#252B30, 0.96));
+      background-image: linear-gradient(to bottom, shade(#293036, 1.0), shade(#293036, 1.0) 10%, shade(#293036, 1.0) 92%, shade(#293036, 1.0));
       border-top: 1px solid shade(#0E1112, 0.85);
       border-bottom: 1px solid shade(#0E1112, 1.12); }
       .sidebar row:selected label, .sidebar row:selected:focus label,
@@ -3820,7 +3820,7 @@ filechooserbutton:drop(active) {
     .sidebar treeview iconview:selected,
     .sidebar treeview .view:selected:focus,
     .sidebar treeview iconview:selected:focus {
-      color: #CDD6D6; }
+      color: #D3DDDE; }
     .sidebar row:backdrop,
     .sidebar treeview:backdrop {
       background-color: transparent; }

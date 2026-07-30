@@ -3,9 +3,9 @@
 
 !! Menu background
 menu.items.bg: flat gradient vertical
-menu.items.bg.color: #25292E
-menu.items.bg.colorTo: #25292E
-menu.separator.color: #3C434D
+menu.items.bg.color: #23272B
+menu.items.bg.colorTo: #23272B
+menu.separator.color: #424A54
 
 !! Menu text
 menu.items.text.color: #D0D5DB
@@ -38,7 +38,7 @@ window.label.text.justify: center
 window.active.label.bg: parentrelative
 window.active.label.text.color: #D8DDE0
 window.inactive.label.bg: parentrelative
-window.inactive.label.text.color: #9BA8B3
+window.inactive.label.text.color: #91989E
 window.active.label.text.font: shadow=y:shadowtint=30:shadowoffset=1
 window.inactive.label.text.font: shadow=y:shadowtint=10:shadowoffset=1
 
@@ -77,7 +77,7 @@ window.active.client.color:  #303740
 window.inactive.client.color:  #22262A
 window.client.padding.width: 1
 window.client.padding.height: 1
-menu.border.color: #434A52
+menu.border.color: #191C1F
 menu.overlap: 0
 
 !! Handles

@@ -5,10 +5,10 @@
 menu.items.bg: flat gradient vertical
 menu.items.bg.color: #2D2D2D
 menu.items.bg.colorTo: #2D2D2D
-menu.separator.color: #414242
+menu.separator.color: #434545
 
 !! Menu text
-menu.items.text.color: #DBDBDB
+menu.items.text.color: #EDEDED
 menu.items.justify: left
 menu.items.disabled.text.color: #677070
 
@@ -23,7 +23,7 @@ menu.title.text.justify: center
 menu.items.active.bg: raised splitvertical gradient
 menu.items.active.bg.color: #27598a
 menu.items.active.bg.colorTo: #27598a
-menu.items.active.text.color: #F5F4F1
+menu.items.active.text.color: #F5F4F2
 
 !! Titlebar
 window.active.title.bg: raised vertical gradient

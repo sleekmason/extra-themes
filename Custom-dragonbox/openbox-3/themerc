@@ -5,7 +5,7 @@
 menu.items.bg: flat gradient vertical
 menu.items.bg.color: #18191A
 menu.items.bg.colorTo: #18191A
-menu.separator.color: #2B3030
+menu.separator.color: #2F3233
 
 !! Menu text
 menu.items.text.color: #D1D1D1
@@ -75,7 +75,7 @@ window.active.client.color:  #272929
 window.inactive.client.color:  #18191A
 window.client.padding.width: 1
 window.client.padding.height: 1
-menu.border.color: #262626
+menu.border.color: #2F3233
 menu.overlap: 0
 
 !! Handles

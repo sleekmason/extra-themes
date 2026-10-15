@@ -465,7 +465,7 @@ row:selected button.flat:not(:active):not(:checked):not(:hover):not(disabled) {
   -gtk-icon-shadow: none; }
 .toolbar > button:hover,
 .toolbar > :not(.linked) > button:hover {
-  background-color: #2A2C2E; }
+  background-color: #3e4547; }
 
 .toolbar > button:checked,
 .toolbar > button:active,
